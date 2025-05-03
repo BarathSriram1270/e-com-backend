@@ -70,7 +70,8 @@
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.13.0</version> <!-- Update to latest version -->
     <configuration>
-        <release>21</release> <!-- Use release instead of source/target -->
+        <release>21</release>
+		<verbose>true</verbose> <!-- Use release instead of source/target -->
     </configuration>
 </plugin>
 
